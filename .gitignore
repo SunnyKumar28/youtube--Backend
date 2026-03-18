@@ -1,0 +1,55 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+
+# Build outputs
+dist
+build
+.next
+.nuxt
+.svelte-kit
+out
+
+# Coverage
+coverage
+.nyc_output
+
+# Env files (IMPORTANT)
+.env
+.env.*
+!.env.example
+
+# Cache
+.cache
+.parcel-cache
+.eslintcache
+.stylelintcache
+
+# TypeScript
+*.tsbuildinfo
+
+# OS / Editor
+.DS_Store
+.vscode/
+.idea/
+
+# Package managers
+.pnpm-debug.log*
+
+# Misc
+.tmp
+.temp
+.serverless/
+.dynamodb/
